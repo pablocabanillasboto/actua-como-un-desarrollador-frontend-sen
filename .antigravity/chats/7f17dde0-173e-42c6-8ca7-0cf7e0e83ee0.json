@@ -88,6 +88,18 @@
       "created_at": "2026-11-03T11:32:04.050Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "f033d064-2740-4421-ad51-e3c74a034ff5",
+      "role": "agent",
+      "content": "He adaptado la sección de **Tarifas técnicas** para replicar la estructura, estética y formato exacto de las imágenes de referencia que has compartido. Además, he corregido el desbordamiento visual que ocurría en navegadores WebKit/Safari.\n\nPuedes comprobar los cambios en vivo en el siguiente enlace:\n👉 **[Ver proyecto en vivo](https://antigravity.luch.dev/site/6d9440ca-afbe-45a7-9771-fb7fdbe1b3ae/ffb89168cb89f69ef99ab862/)**\n\n---\n\n### Detalles de la Renovación en [index.html](file:///home/agent/workspace/index.html):\n\n1. **Estructura y Jerarquía de Tarjetas (Fiel a la Referencia)**:\n   - **Formato Card Independiente**: Cada tarifa es ahora una tarjeta con esquinas redondeadas (`rounded-xl`), fondo `#0B0E11`, borde sutil y el pin circular técnico en la esquina superior derecha.\n   - **Bloque de Título y Subtítulo**:\n     - Tipografía limpia a gran escala para el nombre del servicio.\n     - Subtítulo descriptivo en gris tenue (`Independiente de marca (Mares / Aqualung / Apeks)`, `Presupuesto abierto inicial...`, etc.).\n   - **Columna de Precio**:\n     - Etiqueta superior `PRECIO` en tipografía mono minúscula y tracking amplio.\n     - Importe numérico en gran formato y color titanio (`150€`, `40€`, etc.).\n   - **Botón de Acción Cuadrado**:\n     - Caja con borde fino que contiene el símbolo `+` y rota suavemente a `✕` al abrirse.\n\n2. **Desplegable en Dos Columnas (Como en la Tercera Captura)**:\n   - **Columna Izquierda `[ INCLUYE ]`**:\n     - Lista desordenada con **puntos de acento en naranja `#FF3B00`**, detallando punto por punto cada etapa del servicio (revisión visual, ultrasonidos, sustitución de kit oficial, ajuste PI, informe con fotos y garantía).\n   - **Columna Derecha `[ ESPECIFICACIONES ]`**:\n     - Ficha técnica parametrizada con valores de `TIEMPO` (1 semana), `GARANTÍA` (3 meses) y `NORMA` (EN 250), entre otros.\n\n3. **Corrección de Compatibilidad Safari / iPadOS**:\n   - Se reemplazó el sistema de retícula CSS anterior por un cálculo dinámico de altura mediante `scrollHeight` con `overflow: hidden` estricto en Vanilla JS, garantizando una animación de apertura y cierre fluida y sin solapamientos de texto en ningún dispositivo.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "05de8233-8f92-46c4-9c6c-2ad8cba1af2c",
+      "created_at": "2026-11-03T11:37:35.995Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
